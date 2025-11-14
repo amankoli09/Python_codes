@@ -1,0 +1,7 @@
+a=int(input("Enter the value of A : "))
+b=int(input("Enter the value of B : "))
+print("Result of logical operatration")
+print("a and b ->",bool(a and b))
+print("a or b ->",bool(a or b))
+print("not a ->",not a)
+print("not b ->",not b)

@@ -1,0 +1,5 @@
+a = int(input("Enter the value of A: "))
+b = int(input("Enter the value of B: "))
+operator = input("Enter the operator: ")
+z=eval(f"{a}{operator}{b}")
+print("The result is", z)
