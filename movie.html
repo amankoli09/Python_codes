@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="icon" type="image/x-icon" href="symbol 1.ico">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieBuzz - Trending Trailers</title>
+  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-color: #0a0a0a;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            padding: 25px;
+            font-size: 32px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            box-shadow: 0px 4px 10px rgba(42, 82, 152, 0.5);
+            color: white;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav {
+            margin-top: 80px;
+            background: rgba(30, 30, 30, 0.8);
+            padding: 12px 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            box-shadow: 0px 3px 10px rgba(42, 82, 152, 0.4);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 400;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #1e3c72;
+            font-weight: 700;
+        }
+        section {
+            min-height: 100vh;
+            padding: 120px 20px 40px; 
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 25px;
+        }
+        .trailer {
+            width: 350px;
+            background: #121212;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 5px 15px rgba(42, 82, 152, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .trailer:hover {
+            transform: scale(1.07);
+            box-shadow: 0px 8px 20px rgba(42, 82, 152, 0.7);
+        }
+        h3 {
+            color: yellow;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+        iframe {
+            width: 100%;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+  <header>MovieBuzz - Trending Trailers</header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#upcoming">Upcoming</a>
+        <a href="#trending">Trending</a>
+        <a href="#top-rated">Top Rated</a>
+    </nav>
+    
+    <section id="home">
+        <h2>Welcome to MovieBuzz</h2>
+        <p>Discover the latest movie trailers and stay updated with the hottest trends.</p>
+        <div class="container">
+            <div class="trailer">
+                <h3>Do Patti</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/b6Z_RYC8IAQ?si=S1_FcWsswvupFvWz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="trailer">
+                <h3>Baby John</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qyRn3rPRw8w?si=WpgmX3c2yVx9nYuR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="trailer">
+                <h3>Marco</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AdwGOloQcAs?si=0GrVAGx0un8Jg7fD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="trailer">
+                 <h3>Sikandar Ka Muqadda</h3>
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/incbkkV-6vA?si=UJoMYXfSYoRx287X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+            <h3>Jigra</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3uE0RuQndZc?si=W8blZFikXiFBCXjt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="trailer">
+            <h3>Shaitaan</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A_HQdwRDRrw?si=QCdh34N35i0mtuiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+            <h3>Ulajh</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Tk1EQD7vGiY?si=JTvSByuTs4jnlCA2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+        <h3>Fighter</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6amIq_mP4xM?si=bsRSckOSvDForb3D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+         <h3>SkyForce</h3>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/PKsVB1wPZ78?si=j1ifnmJFB4RJ2th7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+
+        </div>
+        <div class="trailer">
+
+        </div>
+        <div class="trailer">
+
+        </div>
+        <div class="trailer">
+
+        </div>
+        <div class="trailer">
+
+        </div>
+    </section>
+    
+    <section id="upcoming">
+        <h2>Upcoming Movies</h2>
+        <p>Check out the trailers of upcoming blockbuster movies.</p>
+        <div class="container">
+            
+        <div class="trailer">
+            <h3>Sikandar</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RouIzAuPGGU?si=MNb3Jx6JRYU9XiP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="trailer">
+            <h3>A Minecraft Movie</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8B1EtVPBSMw?si=xG2a2EkgcdkeR75o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
+
+         <div class="trailer">
+            <h3>Jaat</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zKHvaG-XXOc?si=L7jjzI07JoDCbV8C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
+
+         <div class="trailer">
+            <h3>Good Bad Ugly</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jl-sgSDwJHs?si=p-eTReAcc_ln70F5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
+
+         <div></div>
+         <div></div>
+    </div>
+    </section>
+    
+    <section id="trending">
+        <h2>Trending Movies</h2>
+        <p>These movies are currently trending worldwide!</p>
+    </section>
+    <!-- breakkkkkkkkkkkk------------- -->
+    <section id="top-rated">
+        <h2>Top Rated Bollywood Tollywood Movies</h2>
+        <p>Watch trailers of critically acclaimed and fan-favorite movies.</p>
+        <div class="container">
+        <div class="trailer">
+            <h3>Game Changer</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QSu9-DBjMPI?si=tXNJglRiNw0PaVhX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+           <h3>Dhoom Dhaam</h3>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/6RT3cB3T74w?si=qR_XNMyYhdHvwj6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+            <h3>Bobby Aur Rishi Ki Love Story</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ig8OVpQzrMo?si=pmjYxXPi_qJt19i5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+            <h3>The Mehta Boys</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bD5Zd0KWLqA?si=KpYki5W2yzwu9IVH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+            <h3>Kadhalikka Neramillai</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PFRwl7FP4Lg?si=5vbTc8tcUELIIOwn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="trailer">
+            <h3>Stree 2</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VlvOgk5BHS4?si=Y4TNdJPr1vr8dpxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="top-rated">
+        <h2>Top Rated Hollywood Movies</h2>
+        <p>Watch trailers of critically acclaimed and fan-favorite Hollywood movies.</p>
+        <div class="container">
+
+            <div class="trailer">
+                <h3>The Gorge</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rUSdnuOLebE?si=uCy46BMOabiORdTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="trailer">
+                <h3>Back in Action</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MV2nYw6gL_w?si=0ZPzmXybwOrxXkUd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="trailer">
+             <h3>Dune: Part Two</h3>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/Way9Dexny3w?si=iUPhGIM32E83HI-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="trailer">
+                <h3>The Brutalist</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GdRXPAHIEW4?si=rG2cXd8vaRWpJoXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <div class="trailer">
+                <h3>Ghostlight</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/R1TycuGX4Mw?si=vQTtll1abNr_s9bb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="trailer">
+                <h3>The Wild Robot</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/67vbA5ZJdKQ?si=2fLS7SBTVcAVwzMW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="trailer">
+                <h3>Furiosa: A Mad Max Saga</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XJMuhwVlca4?si=luxFJ6sEQmhTeX_v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="trailer">
+                <h3>The Count of Monte Cristo</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8Q6y1waxlTY?si=eFvaRizd4qFTM67T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="trailer">
+                <h3>In the Heart of the Sea</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/K-H35Mpj4uk?si=gLm4Of38UPPHZyQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="trailer">
+                <h3>Interstellar</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E?si=ZIK3w0U7l8IH7NcH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+    
+</body>
+</html>
