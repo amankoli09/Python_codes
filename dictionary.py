@@ -7,5 +7,5 @@ student["age"] = 20
 print(student)  # {'name': 'Aman', 'age': 20, 'branch': 'CSE'}
 
 
-aman={"aman", "raj", "saksham"}
+aman={"aman", "raj", "saksham","apple","varun"}
 print(aman)
