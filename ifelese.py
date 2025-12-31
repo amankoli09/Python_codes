@@ -8,6 +8,6 @@
 #         x=0
 #     print(x)    
 for i in range(2,10,2):
-    if i==6:
+    if i==5:
         break
     print(i,end=" ")
